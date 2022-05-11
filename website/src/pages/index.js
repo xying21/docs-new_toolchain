@@ -81,10 +81,10 @@ class Index extends React.Component {
               id="wallet-integration"
               title="Exchange & Wallet Integration"
               body={
-                  <p><a href="docs/integrate/introduction">Integrate</a> section provides first hand experience gained in integrating CKB into existing exchanges and wallets. <a href="docs/reference/introduction">Reference</a> might also help you learn more about CKB specific behavior.</p>
+                  <p><a href="docs/develop/integrate/introduction">Integrate</a> section provides first hand experience gained in integrating CKB into existing exchanges and wallets. <a href="docs/reference/introduction">Reference</a> might also help you learn more about CKB specific behavior.</p>
               }
               footer={
-                  <p><a href="docs/integrate/introduction"><img src="img/doc_integrate.png" alt="integrate"/> Integrate</a>
+                  <p><a href="docs/develop/integrate/introduction"><img src="img/doc_integrate.png" alt="integrate"/> Integrate</a>
                       <a href="docs/reference/introduction"><img src="img/doc_reference.png" alt="reference"/> Reference</a></p>
 
                   }
@@ -96,23 +96,12 @@ class Index extends React.Component {
               id="building-dapps"
               title="Building Dapps"
               body={
-                  <p>If you are developers who want to build dapps on CKB, <a href="docs/labs/introduction">Labs</a> provides hands-on tutorials which you can follow. <a href="docs/reference/introduction">Reference</a> also contains explanations for CKB concepts and specific blockchain behaviors.</p>
+                  <p>If you are developers who want to build dapps on CKB, <a href="docs/develop/tooling">Developer Tooling</a> provides hands-on tutorials which you can follow. <a href="docs/reference/introduction">Reference</a> also contains explanations for CKB concepts and specific blockchain behaviors.</p>
               }
               footer={
-                  <p><a href="docs/labs/introduction"><img src="img/doc_basic.png" alt="basics" /> Labs</a>
+                  <p><a href="docs/develop/tooling"><img src="img/doc_basic.png" alt="basics" />Developer Tooling</a>
                       <a href="docs/reference/introduction"><img src="img/doc_reference.png" alt="reference" /> Reference</a></p>
 
-                  }
-            />
-
-            <Card
-              id="clarification"
-              title="Clarification"
-              body={
-                  <p>As dapp developers, you might need clarifications on specific part from time to time, <a href="docs/reference/introduction">Reference</a> will be your best friend on this topc.</p>
-              }
-              footer={
-                  <p><a href="docs/reference/introduction"><img src="img/doc_reference.png" alt="reference"/> Reference</a></p>
                   }
             />
 

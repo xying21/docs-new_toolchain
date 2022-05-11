@@ -58,25 +58,8 @@
       "reference/transaction",
       "reference/rpc"
     ],
-
-
-	"Labs":[
-      "labs/introduction",
-      "labs/sudtbycapsule",
-      "labs/lumos-nervosdao",
-      "labs/capsule-dynamic-loading-tutorial"
-    ],
-
-
-	"Integrate":[
-      "integrate/introduction",
-      "integrate/qa",
-      "integrate/sdk"
-    ],
 	"Essays":[
       "essays/introduction",
-      "essays/developer-materials-guide",
-      "essays/rfcs",
       "essays/lifecycle",
       "essays/debug",
       "essays/pprof",
@@ -86,15 +69,14 @@
       "essays/faq",
       "essays/ckb-core-dev",
       "essays/integrity-check",
-      "essays/mint-sudt-via-contract",
-	  "essays/pw-lock"
+      "essays/mint-sudt-via-contract"
     ],
 
 	"Develop":[
 	{"Introduction":["develop/developer-materials-guide","develop/tooling"]},
-	{"Tools":[{"CKB-CLI":["develop/tools/ckb-cli/intro","develop/tools/ckb-cli/ckb-cli-account","develop/tools/ckb-cli/ckb-cli-rpc","develop/tools/ckb-cli/ckb-cli-wallet","develop/tools/ckb-cli/ckb-cli-dao","develop/tools/ckb-cli/ckb-cli-tx","develop/tools/ckb-cli/ckb-cli-mock-tx","develop/tools/ckb-cli/ckb-cli-util","develop/tools/ckb-cli/ckb-cli-molecule"]},{"Lumos":[{"Introduction":["develop/tools/lumos/introduction/intro","develop/tools/lumos/introduction/lumoscomponents"]},{"Guides": [{"Install and Configure Lumos":["develop/tools/lumos/guides/installlumos","develop/tools/lumos/guides/config","develop/tools/lumos/guides/indexer"]},"develop/tools/lumos/guides/querycells","develop/tools/lumos/guides/querycapacity","develop/tools/lumos/guides/querytransactions","develop/tools/lumos/guides/buildtransactions","develop/tools/lumos/guides/manageaccounts"]}]},{"CKB SDK":["develop/tools/sdk/intro","develop/tools/sdk/overview_go","develop/tools/sdk/overview_java"]},{"Capsule":["develop/tools/capsule/intro","develop/tools/capsule/sudtbycapsule","develop/tools/capsule/capsule-dynamic-loading-tutorial"]},"develop/tools/mercury",{"Tippy":["develop/tools/tippy/intro","develop/tools/tippy/installnode"]},"develop/tools/ckb-studio","develop/tools/pw-lock"]},
-	{"Tutorials":["develop/lifecycle","develop/debug","develop/pprof","develop/rules","develop/dependencies","develop/polyjuice","develop/ckb-core-dev","develop/integrity-check","develop/mint-sudt-via-contract"]},
-    "develop/faq"
+	{"Tools":[{"CKB-CLI":["develop/tools/ckb-cli/intro","develop/tools/ckb-cli/ckb-cli-account","develop/tools/ckb-cli/ckb-cli-rpc","develop/tools/ckb-cli/ckb-cli-wallet","develop/tools/ckb-cli/ckb-cli-dao","develop/tools/ckb-cli/ckb-cli-tx","develop/tools/ckb-cli/ckb-cli-mock-tx","develop/tools/ckb-cli/ckb-cli-util","develop/tools/ckb-cli/ckb-cli-molecule"]},{"Lumos":[{"Introduction":["develop/tools/lumos/introduction/intro","develop/tools/lumos/introduction/lumoscomponents"]},{"Guides": [{"Install and Configure Lumos":["develop/tools/lumos/guides/installlumos","develop/tools/lumos/guides/config","develop/tools/lumos/guides/indexer"]},"develop/tools/lumos/guides/querycells","develop/tools/lumos/guides/querycapacity","develop/tools/lumos/guides/querytransactions","develop/tools/lumos/guides/buildtransactions","develop/tools/lumos/guides/manageaccounts","labs/lumos-nervosdao"]}]},{"CKB SDK":["develop/tools/sdk/intro","develop/tools/sdk/overview_go","develop/tools/sdk/overview_java"]},{"Capsule":["develop/tools/capsule/intro","develop/tools/capsule/sudtbycapsule","develop/tools/capsule/capsule-dynamic-loading-tutorial"]},"develop/tools/mercury",{"Tippy":["develop/tools/tippy/intro","develop/tools/tippy/installnode"]},"develop/tools/ckb-studio","develop/tools/pw-lock"]},
+	{"Tutorials":["develop/tutorials/integratenft"]},
+	{"Integrate":["develop/integrate/introduction","develop/integrate/qa","develop/integrate/sdk"]}
 	]
 
 }

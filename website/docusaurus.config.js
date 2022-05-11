@@ -3,10 +3,10 @@ const path = require("path");
 module.exports = {
   title: "Nervos CKB",
   tagline: "Nervos CKB",
-  url: "https://docs.nervos.org",
-  baseUrl: "/",
-  organizationName: "nervosnetwork",
-  projectName: "docs-new",
+  url: 'https://xying21.github.com',
+  baseUrl: "/docs-new_toolchain/",
+  organizationName: "xying21",
+  projectName: "docs-new_toolchain",
   scripts: ["/js/extra.js"],
   stylesheets: ["https://fonts.googleapis.com/css2?family=Lato&display=swap"],
   favicon: "img/favicon.png",
@@ -94,16 +94,6 @@ module.exports = {
         {
           to: "docs/reference/introduction",
           label: "Reference",
-          position: "left",
-        },
-        {
-          to: "docs/labs/introduction",
-          label: "Labs",
-          position: "left",
-        },
-        {
-          to: "docs/integrate/introduction",
-          label: "Integrate",
           position: "left",
         },
         {
