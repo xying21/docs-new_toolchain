@@ -1,15 +1,16 @@
 ---
-id: installnode
-title: Set Up and Manage CKB Nodes
+id: tippy
+title: Tippy
 ---
-
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import Link from "@docusaurus/Link";
 
+Tippy is a tool to help set up and manage CKB nodes, enabling the installation and launching of a CKB node with a simple click.
+
 The CKB nodes used in the DApp development are **full nodes** that are the verifiers of the CKB network. A CKB full node verifies new blocks and transactions, relays blocks and transactions, and selects the chain fork on which it agrees.
 
-## Install a CKB Node by Using Tippy
+## Set Up and Manage CKB Nodes
 
 Tippy supports to install and manage CKB nodes on all major platforms including Linux, macOS, and Windows.
 
@@ -69,6 +70,7 @@ The chain specific configuration files like dev.toml and data files are located 
 <ol><li><p>Stop the DEV chain and delete the data files of the chain.</p><p>$HOME/.config/Tippy/chain-<var>number</var>/data</p><p>$HOME/.config/Tippy/chain-<var>number</var>/indexer-data</p></li><li><p>Modify the value for <code>genesis_epoch_length</code> and <code>permanent_difficulty_in_dummy</code> in the dev.toml file.</p>
 
 
+
 ```toml title="$HOME/.config/Tippy/chain-number/specs/dev.toml"
 genesis_epoch_length = 10  # The unit of meansurement is "block".
 permanent_difficulty_in_dummy = true
@@ -121,6 +123,7 @@ value = 1000
 <p>To shorten DEV chain epoch and block interval:</p>
 
 <ol><li><p>Stop the DEV chain and delete the data files of the chain.</p><p>~/Libary/Application Support/Tippy/chain-<var>number</var>/data</p><p>~/Libary/Application Support/Tippy/chain-<var>number</var>/indexer-data</p></li><li><p>Modify the value for <code>genesis_epoch_length</code> and <code>permanent_difficulty_in_dummy</code> in the dev.toml file.</p>
+
 
 
 ```toml title="~/Libary/Application Support/Tippy/chain-number/specs/dev.toml"
@@ -181,6 +184,7 @@ The chain specific configuration files and data files are located in C:/Users/<v
 
 <ol><li><p>Stop the DEV chain and delete the data files of the chain.</p><p>C:/Users/<var>username</var>/AppData/Roaming/Tippy/chain-<var>number</var>/data</p><p>C:/Users/<var>username</var>/AppData/Roaming/Tippy/chain-<var>number</var>/indexer-data</p></li><li><p>Modify the value for <code>genesis_epoch_length</code> and <code>permanent_difficulty_in_dummy</code> in the dev.toml file.</p>
 
+
 ```toml title="C:/Users/username/AppData/Roaming/Tippy/chain-number/specs/dev.toml"
 genesis_epoch_length = 10  # The unit of meansurement is "block".
 permanent_difficulty_in_dummy = true
@@ -203,4 +207,3 @@ value = 1000
 
 </TabItem>
 </Tabs>
-

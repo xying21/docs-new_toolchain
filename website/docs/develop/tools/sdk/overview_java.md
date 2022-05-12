@@ -5,14 +5,6 @@ sidebar_label: ckb-sdk-java
 ---
 The SDK uses the [DefaultCkbApi](https://github.com/nervosnetwork/ckb-sdk-java/blob/455f866c6faf5f63c781e74edefac5f7426a4019/ckb-api/src/main/java/org/nervos/api/DefaultCkbApi.java#L54) API to support the **CKB**, **CKB indexer** and **Mercury** module starting from 0.43.1 version. For more information, see [CkbApiTest.java](https://github.com/nervosnetwork/ckb-sdk-java/blob/develop/ckb-api/src/test/java/org/nervos/api/CkbApiTest.java).
 
-## License
-
-CKB Java SDK is available as an open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Changelog
-
-For more information, see [CHANGELOG](https://github.com/nervosnetwork/ckb-sdk-java/blob/develop/CHANGELOG.md).
-
 ## Contact & Support
 
 CKB Java SDK is under continuous development. Comments on the functionality of the SDK can be posted [here](https://github.com/nervosnetwork/ckb-sdk-java/issues). Any comments and suggestions are welcome and appreciated.

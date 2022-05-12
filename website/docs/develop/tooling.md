@@ -1,7 +1,7 @@
 ---
 id: tooling
-title: Developer Tooling
-sidebar_label: Developer Tooling
+title: Introduction
+sidebar_label: Introduction
 ---
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
